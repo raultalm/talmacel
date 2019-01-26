@@ -283,7 +283,9 @@ section.sec6{
 
 	}
 	.contenu-text{
-		top: 508vh;
+		left: 20%;
+		top: 510vh;
+		transform: translateX(-20%);
 		color: white;
 		font-size: 2.5vh;
 		line-height: 1.6;
