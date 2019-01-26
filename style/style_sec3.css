@@ -68,9 +68,9 @@ section.sec3{
 .texte-description{
 	position: absolute;
 	padding: 0;
-	/*left: 50%;*/
-	/*transform: translateX(-50%);*/
-	left: 50vw;
+	left: 65%;
+	transform: translateX(-65%);
+	/*left: 50vw;*/
 	top: 220vh;
 	/*width: 50px;*/
 	/*color: white;*/
@@ -148,10 +148,10 @@ section.sec3{
 	.texte-description{
 		position: absolute;
 		padding: 0;
-		left: 50%;
+		left: 20%;
 		top: 205vh;
-		transform: translateX(-50%);
-		line-height:5vh;
+		transform: translateX(-20%);
+		font-size: 3vh;
 		font-style: italic;
 		font-family: cursive;
 		color: #151515;
