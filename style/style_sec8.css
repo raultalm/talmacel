@@ -1,0 +1,161 @@
+section.sec8{
+	/*background-color: #05386B;*/
+	/*background-color: #2E2E2E;*/
+	background-color: #4863A0;
+	/*background-color: #0B615E;*/
+	/*background-color: #045FB4;*/
+	height: 40vh;
+}
+.google-maps{
+	margin-top: 10px;
+	width:65vw;
+	height:28vh;  
+	float: right;
+}
+.contact-div{
+	position: absolute;
+	/*background-color: #888888;*/
+	opacity: 0.8;
+	margin-left: 6vw;
+	margin-top: 2vw;
+	padding: 2px;
+	border-radius: 10px ;
+	box-shadow: 0 0 20px 2px;
+}
+/*---------------Titre----------------*/
+.titre-contact{
+	position: absolute; 
+	left : 50%; 
+	transform: translateX(-50%); 
+	font-size: 2.3vw; 
+	color:#D8D8D8; 
+	padding-top: 30px;
+	border-bottom-style: solid;
+}
+/*---------------Telephone----------------*/
+.phone-class{
+	position: absolute;
+	opacity: 0.8;
+	width: 11vw;
+	height: 7vw;
+	border-radius: 10px;
+	padding-left: 10px;
+	left: 20vw;
+	top: 715vh;
+	border-style: solid;
+	border-color: black;
+}
+.phone-symbol{
+	position: relative;
+	color: white;
+	font-size: 3.5vw;
+	left: 32%;
+	top: -65%;
+	
+}
+.nr-phone{
+	position: absolute;
+	left: 3%;
+	top: 26%;
+	color: white;
+	font-size: 1.5vw;
+
+}
+/*---------------Mail----------------*/
+.mail-class{
+	position: absolute;
+	opacity: 0.8;
+	width: 16.5vw;
+	height: 7vw;
+	border-radius: 10px;
+	padding-left: 10px;
+	left: 65vw;
+	top: 715vh;
+	border-style: solid;
+	border-color: black;
+}
+.mail-symbol{
+	position: absolute;
+	color: white;
+	font-size: 3.5vw;
+	left: 50%;
+	top: -58%;
+	transform: translateX(-50%);
+	
+}
+.mail{
+	position: absolute;
+	left:50%;
+	top: 30%;
+	transform: translateX(-50%);
+	color: white;
+	font-size: 1.5vw;
+
+}
+/*---------------------- PHONE VERSION ---------------------*/
+
+@media (max-width: 1020px){
+	.titre-contact{
+		padding-top: 20px;
+		font-size: 4.5vw;
+	}
+	/*---------------Telephone----------------*/
+	.phone-class{
+		position: absolute;
+		opacity: 0.8;
+		width: 70vw;
+		height: 9vh;
+		left: 50%;
+		top: 708vh;
+		transform: translateX(-50%);
+		border-style: none;
+	}
+	.phone-symbol{
+		position: absolute;
+		color: white;
+		font-size: 4.5vw;
+		left: 50%;
+		top: -60%;
+		transform: translateX(-50%);
+
+		
+	}
+	.nr-phone{
+		position: absolute;
+		left: 50%;
+		top: 26%;
+		transform: translateX(-50%);
+		color: white;
+		font-size: 3.5vw;
+
+	}
+	/*---------------Mail----------------*/
+	.mail-class{
+		position: absolute;
+		opacity: 0.8;
+		width: 70vw;
+		height: 9vh;
+		left: 50%;
+		top: 725vh;
+		transform: translateX(-50%);
+		border-style: none;
+	}
+	.mail-symbol{
+		position: absolute;
+		color: white;
+		font-size: 4.5vw;
+		left: 50%;
+		top: -60%;
+		transform: translateX(-50%);
+		
+	}
+	.mail{
+		position: absolute;
+		left: 50%;
+		top: 26%;
+		transform: translateX(-50%);
+		color: white;
+		font-size: 3.5vw;
+
+	}
+}

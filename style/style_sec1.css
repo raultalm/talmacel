@@ -1,0 +1,83 @@
+section.sec1{
+	background-color: gray;
+	background: url("..//images//universe.jpg") ;
+	/*background: url("..//images//raul.jpg") ;*/
+	background-position: center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*width: auto;*/
+
+}
+
+/*------------------------- Logo -------------------------*/
+
+.logo {
+	position: absolute;
+	/*top: 30%;*/
+	top: 40%;
+	left: 50%;
+	/*transform: translate(-50%, -100%);*/
+	transform: translate(-50%, -50%);
+	text-decoration: none;
+	color: white;
+	border-radius: 10px ;
+	box-shadow: 0 0 0px 0px;
+	transition: all 3.0s;
+	/*font-size: 300%;*/
+}
+
+
+
+
+
+.logo:hover{
+	border-radius: 10px ;
+	box-shadow: 0 0 200px 15px;
+	transition: all 3.0s;
+}
+
+a{
+	transition: all 3.0s;
+}
+/*------------------------- Fin Logo -------------------------*/
+
+
+/*---------------------- Scroll button ---------------------*/
+.scroll_button_debut{
+	position: absolute;
+	top: 85vh;
+	left: 50vw;
+
+}
+.scroll_button_debut span {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff; /*on crée les deux cotée de la fléche*/
+	transform: rotate(45deg);/*on tourne les deux cotés pour avoir la fléche*/
+	margin: -10px;
+	animation: anime_scroll_karate 2s infinite;
+}
+.scroll_button_debut span:nth-child(2){
+	animation-delay: -0.2s;
+
+}
+
+.scroll_button_debut span:nth-child(3){
+	animation-delay: -0.4s;
+}
+@keyframes anime_scroll_karate {
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20px, -20px);
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20px, 20px);
+	}
+}

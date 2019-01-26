@@ -1,0 +1,161 @@
+section.sec3{
+	/*background-color: #5CDB95;*/
+	/*background-color: #9099A2;*/
+	background-color: #379683;
+	background-color: #8A4B08;
+	background: url("..//images//presentation2.jpg") ;
+	/*background: url("..//images//blue-wather.jpg") ;*/
+	background-position: center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+.div-image{
+	position: absolute;
+	top: 225vh; 
+	left: 12vw; 
+	box-shadow: 0 0 200px 15px;
+	transition: all 3.0s;
+}
+.div-image:hover{
+	top: 220vh;
+	left: 7vw;
+	transition: all 3.0s;
+}
+.div-image:hover #raul-img{
+	width: 25vw;
+	transition: all 3.0s;
+}
+.image-raul{
+	width: 20vw;
+	transition: all 3.0s;
+}
+.raul-text{
+	position: absolute; 
+	overflow: hidden; 
+	white-space: nowrap;
+	left: 30%;
+	font-size: 130%;
+	font-family: monospace;
+	font-style: italic;
+	visibility: hidden;
+	color: white;
+}
+
+
+.div-image:hover #description-img-raul-age{
+	/*left: 35%;*/
+	left: 10%;
+	visibility: visible;
+	animation: typewriter 4s steps(40) 1.0s 1 normal both;
+}
+.div-image:hover #description-img-raul-lieu{
+	left: 10%;
+	top: 104%;
+	/*left: 35%;*/
+	visibility: visible;
+	animation: typewriter 4s steps(40) 3.0s 1 normal both;
+}
+.div-image:hover #description-img-raul-but{
+	top: 108%;
+	left: 10%;
+	visibility: visible;
+	animation: typewriter 4s steps(40) 4.0s 1 normal both;
+}
+
+
+.texte-description{
+	position: absolute;
+	padding: 0;
+	/*left: 50%;*/
+	/*transform: translateX(-50%);*/
+	left: 50vw;
+	top: 220vh;
+	/*width: 50px;*/
+	/*color: white;*/
+	/*font-size: 1vw;*/
+	/*font-family: 'DroidSerif';*/
+	line-height:5vh;
+	font-style: italic;
+	/*font-variant: small-caps;*/
+	font-family: cursive;
+	/*color: #0B615E;*/
+	/*color: #0B615E;*/
+	color: #151515;
+	color: white;
+	border: 3px;
+}
+
+.anim-typewriter{
+	animation: typewriter 4s steps(40) 1s 1 normal both;
+}
+@keyframes typewriter{
+	from{
+		width: 0vw;
+	}
+	to{
+		width: 30vw;
+	}
+}
+
+/*---------------------- Scroll button ---------------------*/
+
+.scroll_button_histoire{
+	position: absolute;
+	top: 285vh;
+	left: 50vw;
+
+}
+.scroll_button_histoire span {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff; /*on crée les deux cotée de la fléche*/
+	transform: rotate(45deg);/*on tourne les deux cotés pour avoir la fléche*/
+	margin: -10px;
+	animation: anime_scroll_karate 2s infinite;
+}
+.scroll_button_histoire span:nth-child(2){
+	animation-delay: -0.2s;
+
+}
+
+.scroll_button_histoire span:nth-child(3){
+	animation-delay: -0.4s;
+}
+@keyframes anime_scroll_karate {
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20px, -20px);
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20px, 20px);
+	}
+}
+/*---------------------- PHONE VERSION ---------------------*/
+
+@media (max-width: 1020px){
+	.div-image{
+		visibility: hidden;
+	}
+
+	.texte-description{
+		position: absolute;
+		padding: 0;
+		left: 50%;
+		top: 205vh;
+		transform: translateX(-50%);
+		line-height:5vh;
+		font-style: italic;
+		font-family: cursive;
+		color: #151515;
+		color: white;
+		border: 3px;
+	}
+}

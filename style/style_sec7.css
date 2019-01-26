@@ -1,0 +1,535 @@
+section.sec7{
+	/*background-color: #05386B;*/
+	background-color: #379683;
+	background: url("..//images//informatique.jpg") ;
+	background-position: center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/*---------------------- Corps ---------------------*/
+/*---------------------- Les divs ---------------------*/
+.titre-info{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	font-size: 4vw;
+	border-bottom-style: solid;
+}
+
+.html{
+	position: absolute;
+	background: #2E2E2E;
+	opacity: 0.8;
+	width: 30vw;
+	height: 6vw;
+	border-radius: 10px;
+	padding-left: 10px;
+	left: 15vw;
+	top: 625vh;
+	border-style: dashed;
+	border-color: #A4A4A4;
+}
+.css{
+	position: absolute;
+	background: #A4A4A4;
+	opacity: 0.8;
+	width: 30vw;
+	height: 6vw;
+	border-radius: 10px;
+	padding-left: 10px;
+	left: 55vw;
+	top: 625vh;
+	border-style: dashed;
+	border-color: #2E2E2E;
+}
+.js{
+	position: absolute;
+	background: #A4A4A4;
+	opacity: 0.8;
+	width: 30vw;
+	height: 6vw;
+	border-radius: 10px;
+	padding-left: 10px;
+	left: 15vw;
+	top: 640vh;
+	border-style: dashed;
+	border-color: #2E2E2E;
+}
+.java{
+	position: absolute;
+	background: #2E2E2E;
+	opacity: 0.8;
+	width: 30vw;
+	height: 6vw;
+	border-radius: 10px;
+	padding-left: 10px;
+	left: 55vw;
+	top: 640vh;
+	border-style: dashed;
+	border-color: #A4A4A4;
+}
+.c{
+	position: absolute;
+	background: #2E2E2E;
+	opacity: 0.8;
+	width: 30vw;
+	height: 6vw;
+	border-radius: 10px;
+	padding-left: 10px;
+	left: 15vw;
+	top: 655vh;
+	border-style: dashed;
+	border-color: #A4A4A4;
+}
+.arduino{
+	position: absolute;
+	background: #A4A4A4;
+	opacity: 0.8;
+	width: 30vw;
+	height: 6vw;
+	border-radius: 10px;
+	padding-left: 10px;
+	left: 55vw;
+	top: 655vh;
+	border-style: dashed;
+	border-color: #2E2E2E;
+}
+/*---------------------- p ---------------------*/
+
+.html p{
+	position: absolute;
+	top: -2%;
+	left: 5%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	font-size: 2vw;
+	width: 5.6vw;
+	color: #0489B1;
+}
+.css p{
+	position: absolute;
+	top: -2%;
+	left: 5%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	font-size: 2vw;
+	width: 3.6vw;
+	color: #2E9AFE;s
+
+}
+.js p{
+	position: absolute;
+	top: -2%;
+	left: 5%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	font-size: 2vw;
+	width: 2vw;
+	color:#FFBF00;
+}
+.java p{
+	position: absolute;
+	top: -2%;
+	left: 5%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	font-size: 2vw;
+	width: 4.6vw;
+	color:#FF0000;
+}
+.c p{
+	position: absolute;
+	top: -2%;
+	left: 5%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	font-size: 2vw;
+	width: 1.5vw;
+	color: #642EFE;
+}
+
+.arduino p{
+	position: absolute;
+	top: -2%;
+	left: 5%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	font-size: 2vw;
+	width: 9.3vw;
+	color: #088A85;
+	/*transition: all 2.0s;*/
+}
+/*---------------------- Hover: p ---------------------*/
+
+.html:hover > p{
+	color: white;
+	background-color: #0489B1;
+}
+.css:hover > p{
+	color: white;
+	background-color: #2E9AFE;
+}
+.js:hover > p{
+	color: white;
+	background-color: #FFBF00;
+}
+.java:hover > p{
+	color: white;
+	background-color: #FF0000;
+}
+.c:hover > p{
+	color: white;
+	background-color: #642EFE;
+}
+.arduino:hover > p{
+	color: white;
+	background-color: #088A85;
+	/*transition: all 2.0s;*/
+}
+
+/*---------------------- UL ---------------------*/
+.html ul {
+	position: absolute;
+	list-style: 'amharic';
+	top: 10%;
+	left: 35%;
+}
+.css ul {
+	position: absolute;
+	list-style: 'amharic';
+	top: 10%;
+	left: 35%;
+}
+.js ul {
+	position: absolute;
+	list-style: 'amharic';
+	top: 10%;
+	left: 35%;
+}
+.java ul {
+	position: absolute;
+	list-style: 'amharic';
+	top: 10%;
+	left: 35%;
+}
+.c ul {
+	position: absolute;
+	list-style: 'amharic';
+	top: 10%;
+	left: 35%;
+}
+.arduino ul {
+	position: absolute;
+	list-style: 'amharic';
+	top: 10%;
+	left: 35%;
+}
+/*---------------------- UL LI ---------------------*/
+.html ul li{
+	font-size: 1.3vw;
+	color: white;
+}
+.css ul li{
+	font-size: 1.3vw;
+	color: white;
+	/*color: #2E2E2E;*/
+}
+.js ul li{
+	font-size: 1.3vw;
+	/*color: #2E2E2E;*/
+	color: white;
+}
+.java ul li{
+	font-size: 1.3vw;
+	color: white;
+}
+.c ul li{
+	font-size: 1.3vw;
+	color: white;
+}
+.arduino ul li{
+	font-size: 1.3vw;
+	/*color: #2E2E2E;*/
+	color: white;
+}
+
+/*---------------------- Scroll button ---------------------*/
+.scroll_button_info{
+	position: absolute;
+	top: 685vh;
+	left: 50vw;
+
+}
+.scroll_button_info span {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff; /*on crée les deux cotée de la fléche*/
+	transform: rotate(45deg);/*on tourne les deux cotés pour avoir la fléche*/
+	margin: -10px;
+	animation: anime_scroll_karate 2s infinite;
+}
+.scroll_button_info span:nth-child(2){
+	animation-delay: -0.2s;
+
+}
+
+.scroll_button_info span:nth-child(3){
+	animation-delay: -0.4s;
+}
+@keyframes anime_scroll_karate {
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20px, -20px);
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20px, 20px);
+	}
+}
+
+
+/*---------------------- PHONE VERSION ---------------------*/
+@media screen and (max-width: 1020px){
+		/*---------------------- Les divs ---------------------*/
+	.titre-info{
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		color: white;
+		font-size: 4vw;
+	}
+
+	.html{
+		position: absolute;
+		background: #2E2E2E;
+		opacity: 0.8;
+		width: 60vw;
+		height: 10vh;
+		border-radius: 10px;
+		padding-left: 10px;
+		left: 50%;
+		top: 610vh;
+		transform: translateX(-50%);
+		border-style: dashed;
+		border-color: #A4A4A4;
+	}
+	.css{
+		position: absolute;
+		background: #A4A4A4;
+		opacity: 0.8;
+		width: 60vw;
+		height: 10vh;
+		border-radius: 10px;
+		padding-left: 10px;
+		left: 50%;
+		top: 620vh;
+		transform: translateX(-50%);
+		border-style: dashed;
+		border-color: #2E2E2E;
+	}
+	.js{
+		position: absolute;
+		background: #A4A4A4;
+		opacity: 0.8;
+		width: 60vw;
+		height: 10vh;
+		border-radius: 10px;
+		padding-left: 10px;
+		left: 50%;
+		top: 640vh;
+		transform: translateX(-50%);
+		border-style: dashed;
+		border-color: #2E2E2E;
+	}
+	.java{
+		position: absolute;
+		background: #2E2E2E;
+		opacity: 0.8;
+		width: 60vw;
+		height: 10vh;
+		border-radius: 10px;
+		padding-left: 10px;
+		left: 50%;
+		top: 630vh;
+		transform: translateX(-50%);
+		border-style: dashed;
+		border-color: #A4A4A4;
+	}
+	.c{
+		position: absolute;
+		background: #2E2E2E;
+		opacity: 0.8;
+		width: 60vw;
+		height: 10vh;
+		border-radius: 10px;
+		padding-left: 10px;
+		left: 50%;
+		top: 650vh;
+		transform: translateX(-50%);
+		border-style: dashed;
+		border-color: #A4A4A4;
+	}
+	.arduino{
+		position: absolute;
+		background: #A4A4A4;
+		opacity: 0.8;
+		width: 60vw;
+		height: 10vh;
+		border-radius: 10px;
+		padding-left: 10px;
+		left: 50%;
+		top: 660vh;
+		transform: translateX(-50%);
+		border-style: dashed;
+		border-color: #2E2E2E;
+	}
+	/*---------------------- p ---------------------*/
+
+	.html p{
+		position: absolute;
+		top: -2%;
+		left: 5%;
+		border-style: solid;
+		border-color: black;
+		border-radius: 10px;
+		font-size: 3vh;
+		width: 9vh;
+		color: #0489B1;
+	}
+	.css p{
+		position: absolute;
+		top: -2%;
+		left: 5%;
+		border-style: solid;
+		border-color: black;
+		border-radius: 10px;
+		font-size: 3vh;
+		width: 6vh;
+		color: #2E9AFE;s
+
+	}
+	.js p{
+		position: absolute;
+		top: -2%;
+		left: 5%;
+		border-style: solid;
+		border-color: black;
+		border-radius: 10px;
+		font-size: 3vh;
+		width: 3vh;
+		color:#FFBF00;
+	}
+	.java p{
+		position: absolute;
+		top: -2%;
+		left: 5%;
+		border-style: solid;
+		border-color: black;
+		border-radius: 10px;
+		font-size: 3vh;
+		width: 7vh;
+		color:#FF0000;
+	}
+	.c p{
+		position: absolute;
+		top: -2%;
+		left: 5%;
+		border-style: solid;
+		border-color: black;
+		border-radius: 10px;
+		font-size: 3vh;
+		width: 2vh;
+		color: #642EFE;
+	}
+
+	.arduino p{
+		position: absolute;
+		top: -2%;
+		left: 5%;
+		border-style: solid;
+		border-color: black;
+		border-radius: 10px;
+		font-size: 3vh;
+		width: 14vh;
+		color: #088A85;
+		/*transition: all 2.0s;*/
+	}
+	/*---------------------- UL ---------------------*/
+	.html ul {
+		position: absolute;
+		list-style: 'amharic';
+		top: 10%;
+		left: 35%;
+	}
+	.css ul {
+		position: absolute;
+		list-style: 'amharic';
+		top: 10%;
+		left: 35%;
+	}
+	.js ul {
+		position: absolute;
+		list-style: 'amharic';
+		top: 10%;
+		left: 35%;
+	}
+	.java ul {
+		position: absolute;
+		list-style: 'amharic';
+		top: 10%;
+		left: 35%;
+	}
+	.c ul {
+		position: absolute;
+		list-style: 'amharic';
+		top: 10%;
+		left: 35%;
+	}
+	.arduino ul {
+		position: absolute;
+		list-style: 'amharic';
+		top: 10%;
+		left: 35%;
+	}
+	/*---------------------- UL LI ---------------------*/
+	.html ul li{
+		font-size: 2.3vh;
+		color: white;
+	}
+	.css ul li{
+		font-size: 2.3vh;
+		color: white;
+		/*color: #2E2E2E;*/
+	}
+	.js ul li{
+		font-size: 2.3vh;
+		/*color: #2E2E2E;*/
+		color: white;
+	}
+	.java ul li{
+		font-size: 2.3vh;
+		color: white;
+	}
+	.c ul li{
+		font-size: 2.3vh;
+		color: white;
+	}
+	.arduino ul li{
+		font-size: 2.3vh;
+		/*color: #2E2E2E;*/
+		color: white;
+	}
+}

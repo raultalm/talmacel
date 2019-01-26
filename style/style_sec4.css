@@ -1,0 +1,141 @@
+section.sec4{
+	/*background-color: #05386B;*/
+	background-color: #0B615E;
+	background: url("..//images//livre.jpg") ;
+	/*background: url("..//images//green-gard.jpg") ;*/
+	background-position: center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.ecole-past{
+	position: absolute;
+	left: 35vw;
+	top: 310vh;
+	font-size: 1.5vw;
+	color: white;
+	border-style: solid;
+	border-radius: 10px;
+	transition: all 3.0s;
+}
+
+.ecole-actuel{
+	position: absolute;
+	left: 5vw;
+	top: 380vh;
+	font-size: 1.5vw;
+	color: white;
+	border-style: solid;
+	border-radius: 10px;
+	transition: all 3.0s;
+
+}
+.langues{
+	position: absolute;
+	left: 70vw;
+	top: 376vh;
+	font-size: 1.5vw;
+	color: white;
+	border-style: solid;
+	border-radius: 10px;
+	transition: all 3.0s;
+}
+
+.ecole-past:hover{
+	background: gray;
+	top: 340vh;
+	transition: all 3.0s;
+}
+.ecole-actuel:hover{
+	background: gray;
+	left: 35vw;
+	top: 340vh;
+	transition: all 3.0s;
+}
+.langues:hover{
+	background: gray;
+	left: 35vw;
+	top: 340vh;
+	transition: all 3.0s;
+}
+
+
+/*---------------------- Scroll button ---------------------*/
+.scroll_button_ecole{
+	position: absolute;
+	top: 385vh;
+	left: 50vw;
+
+}
+.scroll_button_ecole span {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff; /*on crée les deux cotée de la fléche*/
+	transform: rotate(45deg);/*on tourne les deux cotés pour avoir la fléche*/
+	margin: -10px;
+	animation: anime_scroll_karate 2s infinite;
+}
+.scroll_button_ecole span:nth-child(2){
+	animation-delay: -0.2s;
+
+}
+
+.scroll_button_ecole span:nth-child(3){
+	animation-delay: -0.4s;
+}
+@keyframes anime_scroll_karate {
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20px, -20px);
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20px, 20px);
+	}
+}
+/*---------------------- PHONE VERSION ---------------------*/
+@media (max-width: 1020px){
+	.ecole-past{
+		position: absolute;
+		left: 50%;
+		top: 310vh;
+		transform: translateX(-50%);
+		font-size: 3.5vw;
+		color: white;
+		border-style: solid;
+		border-radius: 10px;
+		transition: all 3.0s;
+		background: gray;
+	}
+
+	.ecole-actuel{
+		position: absolute;
+		left: 50%;
+		top: 337vh;
+		transform: translateX(-50%);
+		font-size: 3.5vw;
+		color: white;
+		border-style: solid;
+		border-radius: 10px;
+		transition: all 3.0s;
+		background: gray;
+
+	}
+	.langues{
+		position: absolute;
+		left: 50%;
+		top: 360vh;
+		transform: translateX(-50%);
+		font-size: 3.5vw;
+		color: white;
+		border-style: solid;
+		border-radius: 10px;
+		transition: all 3.0s;
+		background: gray;
+	}
+}

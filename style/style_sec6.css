@@ -1,0 +1,305 @@
+section.sec6{
+	/*background-color: #05386B;*/
+	background-color: #0B615E;
+	background-color: #379683;
+	/*background: url("..//images//europa.jpg") ;*/
+	background: url("..//images//blue-wather.jpg") ;
+	background-position: center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+/*-------------------------------------------- Contenu -------------------------------------------*/
+
+.all-contenu{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.titre-politique{
+	top: 503vh;
+	color: white;
+	font-size: 2.5vw;
+	text-decoration: underline;
+
+}
+.contenu-text{
+	top: 515vh;
+	color: white;
+	font-size: 3.5vh;
+	line-height: 1.6;
+
+}
+.contenu-text ul li{
+	color: white;
+	font-size: 3.5vh;
+}
+.contenu-text a{
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+	border-bottom-style: solid;
+}
+/*-------------------------------------------- Images -------------------------------------------*/
+
+/*---------------------- ARROWS ---------------------*/
+.arrow-up{
+	position: absolute;
+	left: 13%;
+	top: 527vh;
+	transform: translateX(-13%);
+	font-size: 3vw;
+	color: white;
+	cursor: pointer;
+}
+.arrow-down{
+	position: absolute;
+	left: 13%;
+	top: 560vh;
+	transform: translateX(-13%);
+	font-size: 3vw;
+	color: white;
+	cursor: pointer;
+}
+/*---------------------- DIV ---------------------*/
+.container{
+	position: absolute;
+	/*border-style: solid;*/
+	top: 540vh;
+	left: 5%;
+	transform: translateX(-5%);
+	width: 20vw;
+	height: 13vw;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+.ccj-1{
+	position: relative;
+	left: 5%;
+	/*top: 535%;*/
+	transform: translateX(-5%);
+	width: 20vw;
+}
+.ccj-ressemblement{
+	position: relative;
+	left: 5%;
+	/*top: 10%;*/
+	transform: translateX(-5%);
+	width: 20vw;
+}
+.red-party{
+	position: relative;
+	left: 95%;
+	/*top: 540%;*/
+	transform: translateX(-95%);
+	width: 20vw;
+}
+.euroscola{
+	position: relative;
+	left: 95%;
+	/*top: 540%;*/
+	transform: translateX(-95%);
+	width: 20vw;
+}
+
+
+/*---------------------- DIV img ---------------------*/
+
+.ccj-1 img{
+	opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.ccj-ressemblement img{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.red-party img{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.euroscola img{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+/*---------------------- DIV ul ---------------------*/
+.ccj-1 ul{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	list-style: circle;
+}
+.ccj-ressemblement ul{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	list-style: circle;
+}
+.red-party ul{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	list-style: circle;
+}
+.euroscola ul{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	list-style: circle;
+}
+
+/*---------------------- DIV:hover img and ul ---------------------*/
+.ccj-1:hover img {
+  opacity: 0.3;
+}
+
+.ccj-1:hover  ul {
+  opacity: 1;
+}
+
+.ccj-ressemblement:hover img {
+  opacity: 0.3;
+}
+
+.ccj-ressemblement:hover  ul {
+  opacity: 1;
+}
+
+
+.red-party:hover img {
+  opacity: 0.3;
+}
+
+.red-party:hover  ul {
+  opacity: 1;
+}
+
+
+.euroscola:hover img {
+  opacity: 0.3;
+}
+
+.euroscola:hover  ul {
+  opacity: 1;
+}
+/*---------------------- DIV ul li text ---------------------*/
+.ccj-1 ul li{
+	color: white;
+	/*font-size: 100%;*/
+}
+.ccj-ressemblement ul li{
+	color: white;
+	font-size: 100%;
+}
+.red-party ul li{
+	color: white;
+	/*font-size: 100%;*/
+}
+.euroscola ul li{
+	color: white;
+	font-size: 100%;
+}
+
+/*-------------------------------------------- Scroll button -------------------------------------------*/
+.scroll_button_politique{
+	position: absolute;
+	top: 585vh;
+	left: 50vw;
+
+}
+.scroll_button_politique span {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff; /*on crée les deux cotée de la fléche*/
+	transform: rotate(45deg);/*on tourne les deux cotés pour avoir la fléche*/
+	margin: -10px;
+	animation: anime_scroll_karate 2s infinite;
+}
+.scroll_button_politique span:nth-child(2){
+	animation-delay: -0.2s;
+
+}
+
+.scroll_button_politique span:nth-child(3){
+	animation-delay: -0.4s;
+}
+@keyframes anime_scroll_karate {
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20px, -20px);
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20px, 20px);
+	}
+}
+
+/*---------------------- PHONE VERSION ---------------------*/
+@media (max-width: 1020px){
+	.titre-politique{
+	top: 503vh;
+	color: white;
+	font-size: 2.5vh;
+	text-decoration: underline;
+
+	}
+	.contenu-text{
+		top: 508vh;
+		color: white;
+		font-size: 2.5vh;
+		line-height: 1.6;
+
+	}
+	.contenu-text ul li{
+		color: white;
+		font-size: 2.5vh;
+	}
+	.container{
+		visibility: hidden;
+	}
+	.arrow-down{
+		visibility: hidden;
+	}
+	.arrow-up{
+		visibility: hidden;
+	}
+}
