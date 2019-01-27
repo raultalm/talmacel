@@ -445,6 +445,7 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 }
 
 /*---------------------- PHONE VERSION ( a revoir )---------------------*/
+/*---------------------- DIV---------------------*/
 .caract-phone{
 	visibility: hidden;
 }
@@ -457,7 +458,7 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 	border-radius: 10px;
 	padding-left: 10px;
 	left: 50%;
-	top: 105vh;
+	top: 120vh;
 	transform: translateX(-50%);
 	border-style: dashed;
 	border-color: #A4A4A4;
@@ -471,7 +472,7 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 	border-radius: 10px;
 	padding-left: 10px;
 	left: 50%;
-	top: 115vh;
+	top: 130vh;
 	transform: translateX(-50%);
 	border-style: dashed;
 	border-color: #A4A4A4;
@@ -485,7 +486,7 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 	border-radius: 10px;
 	padding-left: 10px;
 	left: 50%;
-	top: 125vh;
+	top: 140vh;
 	transform: translateX(-50%);
 	border-style: dashed;
 	border-color: #A4A4A4;
@@ -499,7 +500,7 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 	border-radius: 10px;
 	padding-left: 10px;
 	left: 50%;
-	top: 135vh;
+	top: 150vh;
 	transform: translateX(-50%);
 	border-style: dashed;
 	border-color: #A4A4A4;
@@ -514,15 +515,70 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 	border-radius: 10px;
 	padding-left: 10px;
 	left: 50%;
-	top: 145vh;
+	top: 160vh;
 	transform: translateX(-50%);
 	border-style: dashed;
 	border-color: #A4A4A4;
+}
+/*---------------------- DIV a ---------------------*/
+.etudiant-phone a{
+	text-decoration: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 200%;
+	color: white;
+
+}
+.passione-phone a{
+	text-decoration: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 200%;
+	color: white;
+
+}
+.touteHistoire-phone a{
+	text-decoration: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 200%;
+	color: white;
+
+}
+.hommePolitique-phone a{
+	text-decoration: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 200%;
+	color: white;
+
+}
+
+.informaticien-phone a{
+	text-decoration: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 200%;
+	color: white;
+
 }
 
 @media (max-width: 1020px){
 	.caract-phone{
 		visibility: visible;
+	}
+	.titre{
+		font-size: 6vw;
 	}
 	.etudiant{
 		visibility: hidden;
