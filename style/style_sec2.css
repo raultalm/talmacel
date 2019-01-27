@@ -450,54 +450,81 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 }
 .etudiant-phone{
 	position: absolute;
-	width: 15vw;
-	height: 15vw;
-	background-color: #0489B1;
+	background: #2E2E2E;
+	opacity: 0.8;
+	width: 60vw;
+	height: 10vw;
+	border-radius: 10px;
+	padding-left: 10px;
 	left: 50%;
-	top: 115vh;
+	top: 105vh;
 	transform: translateX(-50%);
+	border-style: dashed;
+	border-color: #A4A4A4;
 }
 .passione-phone{
 	position: absolute;
-	width: 15vw;
-	height: 15vw;
-	background-color: #0489B1;
+	background: #2E2E2E;
+	opacity: 0.8;
+	width: 60vw;
+	height: 10vw;
+	border-radius: 10px;
+	padding-left: 10px;
 	left: 50%;
-	height: 30vh;
-	top: 125vh;
+	top: 115vh;
 	transform: translateX(-50%);
+	border-style: dashed;
+	border-color: #A4A4A4;
 }
 .touteHistoire-phone{
 	position: absolute;
-	width: 15vw;
-	height: 15vw;
-	background-color: #0489B1;
+	background: #2E2E2E;
+	opacity: 0.8;
+	width: 60vw;
+	height: 10vw;
+	border-radius: 10px;
+	padding-left: 10px;
 	left: 50%;
-	top: 110vh;
+	top: 125vh;
 	transform: translateX(-50%);
+	border-style: dashed;
+	border-color: #A4A4A4;
 }
 .hommePolitique-phone{
 	position: absolute;
-	width: 15vw;
-	height: 15vw;
-	background-color: #0489B1;
+	background: #2E2E2E;
+	opacity: 0.8;
+	width: 60vw;
+	height: 10vw;
+	border-radius: 10px;
+	padding-left: 10px;
 	left: 50%;
-	top: 110vh;
+	top: 135vh;
 	transform: translateX(-50%);
+	border-style: dashed;
+	border-color: #A4A4A4;
 }
 
 .informaticien-phone{
 	position: absolute;
-	width: 15vw;
-	height: 15vw;
-	background-color: #0489B1;
+	background: #2E2E2E;
+	opacity: 0.8;
+	width: 60vw;
+	height: 10vw;
+	border-radius: 10px;
+	padding-left: 10px;
 	left: 50%;
-	top: 110vh;
+	top: 145vh;
 	transform: translateX(-50%);
+	border-style: dashed;
+	border-color: #A4A4A4;
 }
 
 @media (max-width: 1020px){
-/*	.etudiant{
+	.caract-phone{
+		visibility: visible;
+	}
+	.etudiant{
 		visibility: hidden;
 
 	}
@@ -516,9 +543,5 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 
 	.informaticien{
 		visibility: hidden;
-
 	}
-	.caract-phone{
-		visibility: visible;
-	}
-}*/
+}
