@@ -525,49 +525,49 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 	text-decoration: none;
 	position: absolute;
 	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+	top: 5%;
+	transform: translate(-50%, -5%);
 	font-size: 200%;
 	color: white;
 
 }
-.passione-phone a{
+.passione-phone p{
 	text-decoration: none;
 	position: absolute;
 	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+	top: -100%;
+	transform: translate(-50%, 100%);
 	font-size: 200%;
 	color: white;
 
 }
-.touteHistoire-phone a{
+.touteHistoire-phone p{
 	text-decoration: none;
 	position: absolute;
 	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+	top: 5%;
+	transform: translate(-50%, -5%);
 	font-size: 200%;
 	color: white;
 
 }
-.hommePolitique-phone a{
+.hommePolitique-phone p{
 	text-decoration: none;
 	position: absolute;
 	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+	top: 5%;
+	transform: translate(-50%, -5%);
 	font-size: 200%;
 	color: white;
 
 }
 
-.informaticien-phone a{
+.informaticien-phone p{
 	text-decoration: none;
 	position: absolute;
 	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+	top: 5%;
+	transform: translate(-50%, -5%);
 	font-size: 200%;
 	color: white;
 
