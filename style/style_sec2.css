@@ -521,7 +521,7 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 	border-color: #A4A4A4;
 }
 /*---------------------- DIV a ---------------------*/
-.etudiant-phone p{
+a .etudiant-phone p{
 	text-decoration: none;
 	position: absolute;
 	left: 50%;
@@ -531,7 +531,7 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 	color: white;
 
 }
-.passione-phone p{
+a .passione-phone p{
 	text-decoration: none;
 	position: absolute;
 	left: 50%;
@@ -541,7 +541,7 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 	color: white;
 
 }
-.touteHistoire-phone p{
+a .touteHistoire-phone p{
 	text-decoration: none;
 	position: absolute;
 	left: 50%;
@@ -551,7 +551,7 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 	color: white;
 
 }
-.hommePolitique-phone p{
+a .hommePolitique-phone p{
 	text-decoration: none;
 	position: absolute;
 	left: 50%;
@@ -562,7 +562,7 @@ https://www.youtube.com/watch?v=uR7EbQImYmo&t=92s
 
 }
 
-.informaticien-phone p{
+a .informaticien-phone p{
 	text-decoration: none;
 	position: absolute;
 	left: 50%;
