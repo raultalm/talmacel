@@ -15,7 +15,7 @@ section.sec7{
 	transform: translateX(-50%);
 	color: white;
 	font-size: 4vw;
-	border-bottom-style: solid;
+	text-decoration: underline;
 }
 
 .html{
