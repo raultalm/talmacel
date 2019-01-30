@@ -29,6 +29,7 @@
 </head>
 <body id="BODY">
 
+	<!-- ------------------------------------------------ Section 1 ------------------------------------------------ -->
 <section class="sec1">
 	<a href="#" class="logo" id="logo">
 		<img src="images/logo2_transparent_blanc.png" alt="Logo" >
@@ -40,6 +41,7 @@
 		 </a>
 </section>
 
+	<!-- ------------------------------------------------ Section 2 ------------------------------------------------ -->
 <section class="sec2" id="presentation">
 	<h1 class="titre" >Qui suis-je?</h1>
 
@@ -93,7 +95,7 @@
 		</div>
 	</div>
 	
-	<!-- ------------------------------------------------ PHONE VERSION ------------------------------------------------ -->
+	<!-- ------------------------ PHONE VERSION ------------------------ -->
 	
 	<a href="#ecole"><div class="etudiant-phone caract-phone">
 		<p>Un étudiant</p>	
@@ -119,7 +121,7 @@
 		<p>Un informaticien</p>
 	</div></a>
 
-	<!-- ------------------------------------------------ PHONE VERSION END ------------------------------------------------ -->
+	<!-- ------------------------ PHONE VERSION END ------------------------ -->
 	<a href="#debut-histoire" class="scroll_button_qui_suis_je">
 		 	<span></span>
 		 	<span></span>
@@ -128,6 +130,7 @@
 </section>
 
 
+	<!-- ------------------------------------------------ Section 3 ------------------------------------------------ -->
 <section class="sec3" id="debut-histoire">
 	<!-- <h1 class="titre" >Hei there,</h1> -->
 	<div class="div-image">
@@ -144,6 +147,8 @@
 		 	<span></span>
 		 </a>
 </section>
+
+	<!-- ------------------------------------------------ Section 4 ------------------------------------------------ -->
 <section class="sec4" id="ecole">
 	<ul class="ecole-past">
 		<li>Ecole primaire: Roumanie</li>
@@ -177,6 +182,8 @@
 		 	<span></span>
 		 </a>
 </section>
+
+	<!-- ------------------------------------------------ Section 5 ------------------------------------------------ -->
 <section class="sec5" id="arts-martiaux">
 	<p class="karate-titre"> Une passion: Les arts martiaux </p>
 	<p class="karate-p1"> 
@@ -220,6 +227,8 @@
 		 	<span></span>
 		 	<span></span>
 		 </a>
+
+	<!-- ------------------------------------------------ Section 6 ------------------------------------------------ -->
 </section>
 <section class="sec6" id="vie-politique">
 	<p class="all-contenu titre-politique">Parcours politique et engagements citoyens: </p>
@@ -227,14 +236,14 @@
 	<p class="arrow-down" onclick="click_arrow_down()">⇩</p>
 	<div class="container" id="content">
 		<div class="ccj-1">
-			<img src="images//raul-CCJ-1.jpg" alt="CCJ ELECTIONS 2012" >
+			<img src="images//raul-CCJ-1.jpg" alt="CCJ ELECTIONS 2012"  >
 			<ul>
 				<li>Élections CCJ</li>
 				<li>Date : 2012</li>
 			</ul>
 		</div>
 		<div class="ccj-ressemblement">
-			<img src="images//ressemblement-ccj-2015.jpg" alt="CCJ RASSEMBLEMENT 2015"   >
+			<img src="images//ressemblement-ccj-2015.jpg" alt="CCJ RASSEMBLEMENT 2015"  id="CCJ-RASSEMBLEMENT-2015" >
 			<ul>
 				<li>Rassemblement général CCJ</li>
 				<li>Date : 2015</li>
@@ -294,6 +303,8 @@
 		 	<span></span>
 		 </a>
 </section>
+
+	<!-- ------------------------------------------------ Section 7 ------------------------------------------------ -->
 <section class="sec7" id="info">
 	<p class="titre-info">Experience en informatique: </p>
 	<div class="html">
@@ -348,9 +359,11 @@
 		 	<span></span>
 		 	<span></span>
 		 	<span></span>
+		 	
 		 </a>
 </section>
 
+	<!-- ------------------------------------------------ Section 8 ------------------------------------------------ -->
 <!-- Google maps -->
 <section class="sec8" id="contact">
 	<span class="titre-contact">GET IN TOUCH</span>
@@ -377,7 +390,7 @@ function myMap() {
 }
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-lva_Uh3eyfwq8uszQNXswCMjF5xdRdE=myMap"></script> <!-- Prendre un api -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-lva_Uh3eyfwq8uszQNXswCMjF5xdRdE=myMap"></script> --> <!-- Prendre un api --> 
 <!-- Fin Google maps -->
 
 
@@ -457,13 +470,14 @@ function myMap() {
 	}
 </script> -->
 <script type="text/javascript">
+	var height = document.getElementById("CCJ-RASSEMBLEMENT-2015").offsetHeight;
 	function click_arrow_up(){
 		// document.getElementById("content").scrollIntoView(true);
-		document.getElementById("content").scrollTop -= 280;
+		document.getElementById("content").scrollTop -= height;
 	}
 	function click_arrow_down(){
 		// document.getElementById("content").scrollIntoView(true);
-		document.getElementById("content").scrollTop += 280;
+		document.getElementById("content").scrollTop += height;
 	}
 </script>
 </body>
