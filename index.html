@@ -449,7 +449,7 @@ function myMap() {
 	        document.getElementById("main").className = "main";    
 	        document.getElementById("list").style.visibility = 'hidden';
 	        document.getElementById("logo_m").style.visibility = 'hidden';
-	        document.getElementById("small_menu").style.visibility = 'visible';
+	        document.getElementById("small_menu").style.visibility = 'hidden';
    		}
 	}
 
@@ -470,7 +470,7 @@ function myMap() {
 			console.log(compteur);
 			console.log("show");
 			is_visible = true;
-		}else{
+		}else if((document.body.scrollTop < window.innerHeight - (window.innerHeight/3) || document.documentElement.scrollTop < window.innerHeight - (window.innerHeight/3)) || compteur%2 != 0){
 			my_main.getElementsByTagName("LI")[0].style.visibility = ("hidden");
 			my_main.getElementsByTagName("LI")[1].style.visibility = ("hidden");
 			// my_main.getElementsByTagName("LI")[2].style.visibility = ("hidden");
