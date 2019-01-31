@@ -467,16 +467,29 @@ function myMap() {
 			my_main.getElementsByTagName("LI")[0].style.visibility = ("visible");
 			my_main.getElementsByTagName("LI")[1].style.visibility = ("visible");
 			my_main.getElementsByTagName("LI")[7].style.visibility = ("visible");
+
+			// my_main.getElementsByTagName("LI")[0].classList.remove('inactivate');
+			// my_main.getElementsByTagName("LI")[1].classList.remove('inactivate');
+			// my_main.getElementsByTagName("LI")[7].classList.remove('inactivate');
+
+			// my_main.getElementsByTagName("LI")[0].classList.add('activate');
+			// my_main.getElementsByTagName("LI")[1].classList.add('activate');
+			// my_main.getElementsByTagName("LI")[7].classList.add('activate');
 			console.log(compteur);
 			console.log("show");
 			is_visible = true;
 		}else if((document.body.scrollTop < window.innerHeight - (window.innerHeight/3) || document.documentElement.scrollTop < window.innerHeight - (window.innerHeight/3)) || compteur%2 != 0){
 			my_main.getElementsByTagName("LI")[0].style.visibility = ("hidden");
 			my_main.getElementsByTagName("LI")[1].style.visibility = ("hidden");
-			// my_main.getElementsByTagName("LI")[2].style.visibility = ("hidden");
 			my_main.getElementsByTagName("LI")[7].style.visibility = ("hidden");
+
+			// my_main.getElementsByTagName("LI")[0].classList.remove('activate');
+			// my_main.getElementsByTagName("LI")[1].classList.remove('activate');
+			// my_main.getElementsByTagName("LI")[7].classList.remove('activate');
+			// my_main.getElementsByTagName("LI")[0].classList.add('inactivate');
+			// my_main.getElementsByTagName("LI")[1].classList.add('inactivate');
+			// my_main.getElementsByTagName("LI")[7].classList.add('inactivate');
 			my_main.style.visibility = ("hidden");
-			// my_main.getElementsByTagName("A")[0].style.visibility = ("hidden");
 		}
 		compteur++;
 	}

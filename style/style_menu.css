@@ -183,7 +183,7 @@
 	#main ul li a{
 	font-size: 16vw;
 	}
-
+	
 	#home a{
 		position: absolute;
 		left: 1%;
@@ -222,5 +222,17 @@
 	}
 	#logo_m {
 		display: none;
+	}
+
+	/*---------------active - inactive------------------*/
+	.activate{
+		float: none;
+		visibility: visible;
+		background-color: #262626;
+	}
+	.inactivate{
+		float: none;
+		visibility: hidden;
+		background-color: #262626;
 	}
 }
