@@ -184,25 +184,25 @@
 	font-size: 16vw;
 	}
 
-	#home{
+	#home a{
 		position: absolute;
-		left: 5%;
+		left: 1%;
 		top: 20vw;
-		transform: translateX(-5%);
+		transform: translateX(-1%);
 	}
 
-	#pres{
+	#pres a{
 		position: absolute;
-		left: 5%;
+		left: 1%;
 		top: 45vw;
-		transform: translateX(-5%);
+		transform: translateX(-1%);
 	}
 
-	#cont{
+	#cont a{
 		position: absolute;
-		left: 5%;
+		left: 1%;
 		top: 70vw;
-		transform: translateX(-5%);
+		transform: translateX(-1%);
 	}
 
 
