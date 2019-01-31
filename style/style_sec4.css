@@ -138,4 +138,22 @@ section.sec4{
 		transition: all 3.0s;
 		background: gray;
 	}
+	.ecole-past:hover{
+		position: absolute;
+		left: 50%;
+		top: 310vh;
+		transform: translateX(-50%);
+	}
+	.ecole-actuel:hover{
+		position: absolute;
+		left: 50%;
+		top: 337vh;
+		transform: translateX(-50%);
+	}
+	.langues:hover{
+		position: absolute;
+		left: 50%;
+		top: 360vh;
+		transform: translateX(-50%);
+	}
 }
