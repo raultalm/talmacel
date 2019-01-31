@@ -183,23 +183,28 @@
 	#main ul li a{
 	font-size: 16vw;
 	}
-	#cont{
+
+	#home{
 		position: absolute;
-		top: 35vw;
+		left: 5%;
+		top: 20vw;
+		transform: translateX(-5%);
 	}
 
-	#home.inactive_li{
-		visibility: hidden;
+	#pres{
+		position: absolute;
+		left: 5%;
+		top: 45vw;
+		transform: translateX(-5%);
 	}
-	#pres.inactive_li{
-		visibility: hidden;
+
+	#cont{
+		position: absolute;
+		left: 5%;
+		top: 70vw;
+		transform: translateX(-5%);
 	}
-	#parc.inactive_li{
-		visibility: hidden;
-	}
-	#cont.inactive_li{
-		visibility: hidden;
-	}
+
 
 	/*---------------list------------------*/
 	#main ul li.inactive_li{
