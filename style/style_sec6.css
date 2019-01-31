@@ -53,6 +53,8 @@ section.sec6{
 	font-size: 3vw;
 	color: white;
 	cursor: pointer;
+	transition: all 0.5s;
+
 }
 .arrow-down{
 	position: absolute;
@@ -62,6 +64,16 @@ section.sec6{
 	font-size: 3vw;
 	color: white;
 	cursor: pointer;
+	transition: all 0.5s;
+
+}
+.arrow-up:hover{
+	top: 526vh;
+	transition: all 0.5s;
+}
+.arrow-down:hover{
+	top: 561vh;
+	transition: all 0.5s;
 }
 /*---------------------- DIV ---------------------*/
 .container{
@@ -259,6 +271,8 @@ section.sec6{
 .scroll_button_politique span:nth-child(3){
 	animation-delay: -0.4s;
 }
+/*-------------------------------------------- Animations -------------------------------------------*/
+/*------------------ Scroll button ------------------*/
 @keyframes anime_scroll_karate {
 	0%{
 		opacity: 0;
@@ -272,6 +286,9 @@ section.sec6{
 		transform: rotate(45deg) translate(20px, 20px);
 	}
 }
+/*------------------ Up arrow ------------------*/
+
+/*------------------ Scroll button ------------------*/
 
 /*---------------------- PHONE VERSION ---------------------*/
 @media (max-width: 1020px){
