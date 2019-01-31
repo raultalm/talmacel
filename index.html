@@ -413,9 +413,9 @@ function myMap() {
 		<img src="images/logo2_transparent.png" alt="Logo" width="120vw" height="45vh" >
 	</a>
 	<ul id="list">
-		<li id="home"><a href="#">Home</a></li>
-		<li id="pres" onclick="click_pres()"><a href="#presentation"  >Presentation</a></li>
-		<li id="parc"><a href="#parcours">Parcours</a>
+		<li id="home" onclick="clic_home()"><a href="#">Home</a></li>
+		<li id="pres" onclick="clic_home()"><a href="#presentation"  >Presentation</a></li>
+		<li id="parc" onclick="clic_home()"><a href="#parcours">Parcours</a>
 			<ul class="options">
 				<li id="sch"><a href="#ecole">Scolaire</a></li>
 				<li id="info"><a href="#info">Informatique</a></li>
@@ -423,7 +423,7 @@ function myMap() {
 				<li ><a href="#arts-martiaux">Arts-Martiaux</a></li>
 			</ul>
 		</li>
-		<li id="cont"><a href="#contact">Contact</a></li>
+		<li id="cont" onclick="clic_home()"><a href="#contact">Contact</a></li>
 	</ul>
 </div>
 </nav>
@@ -457,6 +457,33 @@ function myMap() {
 </script>
 
 <!-- ---------- Menu Telephone A Finir ---------- -->
+<script type="text/javascript">
+	var compteur = 0;
+	var my_main = document.getElementById("main");
+	var is_visible = false;
+	function clic_home(){
+		if(compteur%2 === 0){
+			my_main.style.visibility = ("visible");
+			my_main.getElementsByTagName("LI")[0].style.visibility = ("visible");
+			my_main.getElementsByTagName("LI")[1].style.visibility = ("visible");
+			my_main.getElementsByTagName("LI")[7].style.visibility = ("visible");
+			console.log(compteur);
+			console.log("show");
+			is_visible = true;
+		}else{
+			my_main.getElementsByTagName("LI")[0].style.visibility = ("hidden");
+			my_main.getElementsByTagName("LI")[1].style.visibility = ("hidden");
+			// my_main.getElementsByTagName("LI")[2].style.visibility = ("hidden");
+			my_main.getElementsByTagName("LI")[7].style.visibility = ("hidden");
+			my_main.style.visibility = ("hidden");
+			// my_main.getElementsByTagName("A")[0].style.visibility = ("hidden");
+		}
+		compteur++;
+	}
+
+</script>
+
+
 <!-- <script type="text/javascript">
 	function clic_home(){
 		var men = document.getElementById("small_menu")
@@ -476,10 +503,13 @@ function myMap() {
 	}
 </script> -->
 <script type="text/javascript">
+	var x = 0;
 	var height = document.getElementById("CCJ-RASSEMBLEMENT-2015").offsetHeight;
 	function click_arrow_up(){
 		// document.getElementById("content").scrollIntoView(true);
 		document.getElementById("content").scrollTop -= height;
+		x++;
+		console.log(x);
 	}
 	function click_arrow_down(){
 		// document.getElementById("content").scrollIntoView(true);

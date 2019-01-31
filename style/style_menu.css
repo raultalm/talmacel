@@ -126,12 +126,13 @@
 @media (max-width: 1020px){
 	.bar_small_menu{
 		/*display: block;*/
-		display: none;
+		display: block;
 	}
 
 	#main{
 
 		visibility: hidden;
+		height: 5vh;
 
 	}
 	#main.me_active{
@@ -146,36 +147,44 @@
 	}*/
 
 	/*---------------list------------------*/
-	#home{
+	/*#home{
 		float: none;
-		visibility: hidden;
+		visibility: visible;
 	}
 	#pres{
 		float: none;
-		visibility: hidden;
+		visibility: visible;
+		font-size: 3vw;
 	}
 	#parc{
 		float: none;
-		visibility: hidden;
+		visibility: visible;
+		font-size: 3vw;
 	}
 	#cont{
 		float: none;
+		visibility: visible;
+		font-size: 3vw;
+	}
+*/
+	#main {
 		visibility: hidden;
 	}
-
-	#home.active_li{
-		visibility: visible;
+	#main ul{
+		top: 3vh;
 	}
-	#pres.active_li{
-		visibility: visible;
+	#main ul li{
+		float: none;
+		visibility: hidden;
+		background-color: black;
 	}
-	#parc.active_li{
-		visibility: visible;
+	#main ul li a{
+	font-size: 16vw;
 	}
-	#cont.active_li{
-		visibility: visible;
+	#cont{
+		position: absolute;
+		top: 35vw;
 	}
-
 
 	#home.inactive_li{
 		visibility: hidden;
@@ -196,17 +205,6 @@
 		visibility: hidden;
 	}
 
-	#main ul li.active{
-		/*float: none;*/
-		visibility: visible;
-	}
-
-
-	#main ul{
-		/*display: none;*/
-		margin-top: 10vh;
-		/*visibility: hidden;*/
-	}
 	#main ul li ul li{
 		display: none;
 		visibility: hidden;
@@ -214,9 +212,6 @@
 	#main ul li ul li.inactive{
 		/*display: none;*/
 		visibility: hidden;
-	}
-	#main ul li a{
-	font-size: 16vh;
 	}
 	#logo_m {
 		display: none;
